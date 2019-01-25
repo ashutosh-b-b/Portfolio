@@ -1,0 +1,318 @@
+
+body{
+    background-color  : white;
+}
+
+.imgcontainer1
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg1.png);
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+}
+.bgimg1
+{
+    width: 100%;
+    height: 101%;
+}
+.myname
+{   margin : 1%;
+    color: #ffffff;
+    font-size: 5vw;
+    font-family : 'Dancing Script';
+}
+.portfred
+{   
+    text-align: center;
+    width : 10%;
+    height: 5%;
+    background-color : transparent;
+    border: solid 4px;
+    border-radius: 30vw;
+    border-color : #ffffff;
+    color: #ffffff;
+    font-size: 1vw;
+    box-sizing: border-box;
+}
+.portfred:hover
+{   border-color : #022140;
+    background-color: #022140;
+}
+.portfredir
+{   
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+.portfredir:active
+{
+    color : white;
+}
+.portfredir:visited
+{
+    color : white;
+}
+
+.aboutme
+{   
+    display : flex;
+    flex-direction: row;
+    width : 100%;
+    height : 40%;
+}
+.aboutdes
+{
+    width : 50%;
+    height : 100%;
+    font-size : calc(0.8vw + 1vh);
+    padding : 2%;
+    box-sizing : border-box;
+    font-family : 'Prompt';
+}
+.myimgc
+{
+    width : 20%;
+    height : 100%;
+}
+.myimg
+{
+    width : 100%;
+    height : 100%;    
+}
+.lang
+{
+    width : 30%;
+    height : 100%;
+    background-color : #ea9c1e;
+    font-size : 2vw;
+    padding : 2%;
+    box-sizing: border-box;
+}
+.langtitle
+{
+    color : white;
+    font-size : 3vw;
+}
+ul li:nth-child(2n)
+{
+    color : white;
+}
+.abouttitle
+{
+    color : #7a7a7a;
+    font-size : 2vw;
+}
+.developer
+{
+    width : 100%;
+    height : 70%;
+    position : relative;
+
+}
+.img11
+{   width : 100%;
+    height: 100%;
+    opacity : 0.3;
+}
+
+.devtitle
+{   width : 40%;
+    position : absolute;
+    top : 40%;
+    left : 30%;
+    font-size : 3.5vw;
+    color: #4c4b4a;
+    font-family: 'Baloo Thambi';
+    
+}
+.logolab
+{
+    position: absolute;
+    top : 30%;
+    left : 40%;
+    opacity: 0.3;
+}
+.hobbies
+{
+    display : flex;
+    flex-direction : row;
+    width : 100%;
+    height : 50%;
+}
+.h1 
+{   width : 33.3333%;
+    height : 100%;
+    color : white;
+    background-color: #ea9c1e;
+    display: flex;
+    flex-direction: column;
+    padding : 2%;
+    box-sizing: border-box;
+    align-items : center;
+}
+.h2 
+{   width : 33.3333%;
+    height : 100%;
+    color : white;
+    background-color: #f9610e;
+    display: flex;
+    flex-direction: column;
+    padding : 2%;
+    box-sizing: border-box;
+    align-items : center;
+}
+.h3
+{   width : 33.3333%;
+    height : 100%;
+    color : white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding : 2%;
+    box-sizing: border-box;
+    align-items : center;
+}
+.iconhob
+{  
+    width : 20%;
+    height : 30%;
+}
+.hobtitle
+{   text-align: center;
+    width : 76%;
+    font-family: 'Coda Caption';
+    font-size : 2vw;
+    margin-top : 2%;
+}
+.texthob
+{   text-align: justify;
+    font-family: 'Lobster Two';
+    font-size : 1.5vw;
+    padding : 3%;
+    text-align: center;
+    width : 100%;
+    height : 70%;
+}
+.texthob:hover
+{
+    animation: comeout 2s ease-in-out;
+
+}
+.contactback
+{   background-image : url(images/contactbg.jpg);
+
+    
+}
+.contactmehead
+{   
+    text-align: center;
+    font-size : 3vw;
+    font-family : 'Baloo Thambi';
+    color: white;
+    /* margin-left : 37%; */
+    animation: bounceIn 2s ease-in-out;
+    width : 100%;
+    height : 20%;
+
+}
+
+.contactme
+{
+    margin-top : 2%;
+    width : 100%;
+    height : 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.contactbtn
+{   
+    width : 5%;
+    height : 15%;
+    border : solid;
+    border-width : 0.2vw;
+    margin : 2%;
+}
+.logo{
+    width : 100%;
+    height:100%;
+}
+.contactbtn:hover
+{
+    opacity : 0.3;
+    background-color: black;
+}
+@media only screen and (max-width: 600px) {
+    body 
+    {
+        width: 100%;
+    }
+   .myname
+   {
+       font-size : 10vw;
+   }
+    .portfred
+    {
+        width : 20%;
+        font-size : 4vw;
+    }
+    .aboutme
+    {
+        flex-direction: column;
+        height : 70%;
+    }
+    .aboutdes , .myimgc, .lang
+    {
+        width : 100%;
+        height: 33.33%;
+    }
+    .myimgc
+    {
+        height : 50%;
+    }
+    .hobbies
+    {
+        flex-direction: column;
+        height: 100%;
+    }
+    .h1 , .h2, .h3
+    {
+        width : 100%;
+        height : 70%;
+    }
+    .logolab
+    {
+        top : 20%;
+        left : 23%;
+    }
+    /* Fonts */
+    .abouttitle , .lang , .hobtitle
+    {
+        font-size : 4vw;
+    }
+    .aboutdes , .texthob
+    {
+        font-size : 3vw;
+
+    }
+    .devtitle
+    {
+        font-size : 7vw;
+    }
+    .contactmehead
+    {
+        font-size : 6vw;
+        margin-left : 23%;
+    }
+    .langtitle
+    {
+        font-size : 6vw;
+    }
+    .contactmehead
+    {
+        text-align: justify;
+    }
+  }
