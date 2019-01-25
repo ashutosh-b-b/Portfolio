@@ -36,25 +36,31 @@ body{
     color: #ffffff;
     font-size: 1vw;
     box-sizing: border-box;
+    text-decoration: none;
 }
 .portfred:hover
 {   border-color : #022140;
     background-color: #022140;
 }
-.portfredir
+.portfredir:visited
 {   
     font-size: 1.2vw;
     text-decoration: none;
 }
 .portfredir:active
-{
+{       text-decoration: none;
     color : white;
 }
 .portfredir:visited
 {
     color : white;
+    text-decoration: none;
 }
+.portfredir
+{   text-decoration: none;
+    font-size : 1.5vw;
 
+}
 .aboutme
 {   
     display : flex;
