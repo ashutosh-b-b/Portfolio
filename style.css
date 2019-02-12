@@ -2,30 +2,44 @@
 body{
     background-color  : white;
 }
+#cursor
+        {   background-color:white;
+            height : 10%;
+            width : 0.5%;
+        }
 
 .imgcontainer1
 {
     width: 100%;
     height: 100%;
-    background-image: url(images/bg1.png);
+    background-image: url(images/darkbg1.jpg);
     display : flex;
     flex-direction : column;
     justify-content : center;
     align-items : center;
+    background-size : cover;
+}
+
+.contaun
+{   width  : 37%;
+    display: flex;
+    flex-direction: row;
 }
 .bgimg1
 {
     width: 100%;
     height: 101%;
 }
-.myname
-{   margin : 1%;
+
+#Ashutosh
+{
     color: #ffffff;
     font-size: 5vw;
     font-family : 'Dancing Script';
+    
 }
 .portfred
-{   
+{   margin-top : 3%;
     text-align: center;
     width : 10%;
     height: 5%;
@@ -140,6 +154,13 @@ ul li:nth-child(2n)
     left : 40%;
     opacity: 0.3;
 }
+.dot {
+    height: 20%;
+    width: 20%;
+    background-color:white;
+    border-radius: 50%;
+    display: inline-block;
+  }
 .hobbies
 {
     display : flex;

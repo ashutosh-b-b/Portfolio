@@ -6,16 +6,21 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Prompt" rel="stylesheet">
 
-        <script src="script.js"></script>
+        <script >
+        
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
     </head>
     <body>
         <div class="imgcontainer1">
             <!-- <img src="images/bg1.png" alt="portfoliobackground" class="bgimg1"> --> 
-            <span class="myname">
-                    Ashutosh Bharambe
-            </span>
+            <canvas id="canvas">
+            </canvas>
+            <div class = contaun>
+               <span id = "Ashutosh"></span>
+               <div id = cursor></div>
+            </div>
             <!-- <button class="portfred" id = "btn1">Portfolio</button> -->
             <div class="portfred">
                 <a class="portfredir" href="#aboutme">Portfolio</a>
@@ -53,18 +58,21 @@
             <div class= "h1">
                     <img class = "iconhob" src="images/acting.png" alt="">
                     <span class="hobtitle">Acting</span>
-                    <div class="texthob">Can take up characters quickly. loves thrillers and comedy.</div>
+                    <span class="dot" id = "dot1"></span>
+                    <div class="texthob" id = "txt1"></div>
             </div>
             <div class= "h2">
                 <img class = "iconhob" src="images/standup.png" alt="">
                 <span class="hobtitle">Stand-Up Comedy</span>
-                <div class="texthob"> Self-Depreciating Humour. And loves roasting.</div>
-            </div>
+                <span class="dot" id = "dot2"></span>
+
+                <div class="texthob" id = "txt2"> </div>            </div>
             <div class= "h3">
                     <img class = "iconhob" src="images/cinematics.png" alt="">
                     <span class="hobtitle">Film Making</span>
-                    <div class="texthob"> Writing screenplay and scripts. Working with the productions and editing.</div>
-             </div>
+                    <span class="dot" id = "dot3"></span>
+
+                    <div class="texthob" id = "txt3"> </div>             </div>
         </div>
       <div class="contactback">  
         
@@ -84,4 +92,8 @@
         </div>
     </div>
     </body> 
+    <script src="script.js" type="text/javascript"></script>
+    <script src="test1.js" type="text/javascript"></script>
+    
+    
 </html>
